@@ -1,0 +1,57 @@
+{
+	"id": "8198ffb8-8dbb-43e8-9236-5a32dbe34f2d",
+	"name": "Contact List",
+	"values": [
+		{
+			"key": "firstName",
+			"value": "Testa",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "lastName",
+			"value": "Testing",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "contactId",
+			"value": "63f40598fd15980f0d6c7d63",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "tester@testing.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "city",
+			"value": "Test Site",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "country",
+			"value": "Fake Land",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "jobTitle",
+			"value": "Tester",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "company",
+			"value": "Testers",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-02-21T01:50:14.333Z",
+	"_postman_exported_using": "Postman/10.7.3"
+}
