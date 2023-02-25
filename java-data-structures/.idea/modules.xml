@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-data-structures.iml" filepath="$PROJECT_DIR$/.idea/java-data-structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queeues/queeues.iml" filepath="$PROJECT_DIR$/queeues/queeues.iml" />
       <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
     </modules>
   </component>
