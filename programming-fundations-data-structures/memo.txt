@@ -1,0 +1,60 @@
+// numerical data types
+
+Whole Numbers
+- short, 16 bits, -32768 ~ 32767
+- int, 32 bits, -2billion ~ 2billion
+- long, 64 bits, -(2^63) ~ 2^63
+
+Decimal Numbers
+- float, 32 bits, ~7 decimal digits
+- double, 64 bits, ~16 decimal digits
+//// above are the data types available in Java
+//// int and double are also available in the most of languages
+
+JavaScript:
+numbers: covers everything above
+
+Python 2: int, long, float, complex
+Python 3: long (int)
+
+
+Signed data types
+- have both positive and negative values
+
+Unsigned data type
+- have only positive values
+- since there is no negative value, their ranges of positive values are twice than signed
+
+
+// booleans and characters
+- boolean -> 0 or 1, 1 bit value; 0 = false, 1 = true
+- Int -> 0s and 1s; 32 bits of 0s and 1s
+- Double -> 0s and 1s
+- Character -> 0s and 1s
+
+// primitive types
+// also called basic or value types
+- int, short, double, boolean, long char, float
+
+
+String
+
+Referenced types 
+ - data structures
+ - Strings
+ - they have pointers to point to the address of each data value
+ - variableName -> memoryAddress -> value
+Primitive types
+ - variableName -> data
+
+
+Array
+- collection of elements, where each item is identified by an index or key
+
+Data Structure
+- a collection with a defined way of accessing and storing items
+
+Container objects
+- such as array, an object that contain multiple primitives or other containers within
+
+Multidimensional array
