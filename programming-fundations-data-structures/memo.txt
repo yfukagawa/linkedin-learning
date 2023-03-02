@@ -58,3 +58,23 @@ Container objects
 - such as array, an object that contain multiple primitives or other containers within
 
 Multidimensional array
+
+Jagged arrays
+- a way to avoid wasted memory space/slots
+
+Resizable arrays and language
+- Ruby and JavaScript can resize array -> dynamic or mutable arrays
+- Java -> ArrayList
+
+Search array
+- for loop to scan through every element -> linear search
+- indexOf method
+
+Sort arrays
+- comparator
+
+Big O Notation
+- notation used to describe the performance or complexity of an algorithm
+- time complexity
+- O(1) time
+- O(n) time
