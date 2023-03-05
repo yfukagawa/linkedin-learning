@@ -78,3 +78,11 @@ Big O Notation
 - time complexity
 - O(1) time
 - O(n) time
+
+Linked list
+- pointers
+- linear access, but not linear data structure
+- each link is a pointer = holds an address to a memory location = data does not need to be stored in the continuous locations in the memory
+- node: contains data and a pointer
+- head of the list = the first node of the list
+- add, access, delete, search, insert into
