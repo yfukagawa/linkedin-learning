@@ -107,3 +107,40 @@ Big O Notation
 Slow random access
 Random access
  - directly access the element via index
+
+Stack
+- like a stack of pancakes
+- Last in First Out (LIFO)
+- "push" to add
+- "pop" to remove
+
+Runtime stack
+- keeps track of variables
+- error tracing
+- keep track of its states
+
+Queue
+- FIFO
+- Enqueue = an item is added to a list
+- Dequeue = an item is removed from a list
+- peek()
+
+Priority Queue
+- each element has a priority associated with it
+- Java has the PritorityQueue class
+
+Dequek
+- double-ended queue
+- stack and queue at the same time
+- items can be added or removed from either end
+- Java has interface for it
+
+Stacks are great for:
+- reversing things
+- keeping track of state
+- add/remove from back of a structure
+- helping to keep state
+- LIFO
+
+Queues are great for:
+- FIFO
