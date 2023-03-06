@@ -86,3 +86,24 @@ Linked list
 - node: contains data and a pointer
 - head of the list = the first node of the list
 - add, access, delete, search, insert into
+
+Singly Linked List
+
+Doubly Linked List
+
+Java
+- List is an interface within the Collection framework
+-- ArrayList
+-- LinkedList
+
+Javascript does not have built in Linked List; use third party implementation
+
+Python
+- doesn't really have list; it is rather resizable array
+
+Big O Notation
+ - Runtime complexity
+
+Slow random access
+Random access
+ - directly access the element via index

@@ -1,6 +1,7 @@
 //Linked List
 public class LinkedListExample {
     Node head;
+    Node tail;
 
     public void add(int data) {
 //        LL is empty
@@ -27,5 +28,6 @@ public class LinkedListExample {
 class Node {
     int data;
     Node next;
+    Node previous;
     Node(int d) {this.data = d;}
 }
