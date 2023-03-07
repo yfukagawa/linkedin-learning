@@ -144,3 +144,23 @@ Stacks are great for:
 
 Queues are great for:
 - FIFO
+
+Associative Array
+- collection of key-value pairs
+- key:value
+- key-value pairs are bound together
+- each key must be unique
+- order isn't important
+- values are accessed with the key
+- values do not need to be unique
+- abstracting type
+- hash table
+
+Hashing 
+- data conversion process
+- one way function
+- ASCII
+- not the same as encryption
+
+Collision
+- anytime two inputs produce the same hash value
