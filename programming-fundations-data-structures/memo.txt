@@ -180,3 +180,67 @@ Hash map operations always take the same amount	of time, regardless of the size 
 
 Hash map operations:
 - O(1) for search, insertion, and Delete
+
+Set
+- a collection of unique items
+- order does not matter
+- no duplicates allowed
+- membership
+ -- no key or index
+
+*review: Implementation
+- Array: liner search
+- Linked list (traverse)
+- Associative	 array (specific key)
+
+Java has Set interface and a series of concrete classes to implement it
+ - tree set, hash set, enum set, etc...
+
+Tree data structure
+- a logical data structure
+- root node
+ -- child node
+  -- descendant node
+- leaf node: a node without a child
+
+Binary Tree
+- each node has exact two child nodes
+ -- left node and right node
+
+Binary search tree (BST)
+- Constraint: max two child nodes from any given node
+- order is constrained
+- left child node < parent node
+- right child node > parent node
+- has keys
+- tree must be sorted as a new node added
+- tree may become unbalanced
+- maintain sorted order while staying fast for insertion, deletion, and accessing.
+
+Balanced tree
+- O(log(n))
+Unbalanced tree
+- O(n)
+
+Java implements TreeMap with a red-black tree
+
+JavaScript and Python use third-party implementations
+
+Heap
+- a data structure implemented as a binary tree
+- collection of objects
+- each level must be filled before adding the next level
+- fills left to right
+- Min Heap: children values are larger than their parents
+- Max Heap: children values are smaller than their parents
+- value order between siblings (left and right nodes) does not matter
+- Find min/max: O(1)
+- insert: O(log(n))
+- search: O(n)
+- delete: O(n)
+Heaps are used to implement Priority Queues because the order doesn't matter
+
+
+
+
+
