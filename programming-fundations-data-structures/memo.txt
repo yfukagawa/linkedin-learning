@@ -164,3 +164,19 @@ Hashing
 
 Collision
 - anytime two inputs produce the same hash value
+
+Hash table
+- an implementation of the associative array abstract data structure
+
+Separate Chaining
+
+Java has built in hashCode function
+
+JavaScript either implement custom code or npm install an appropriate module
+
+Java has hash table and hash map collections
+
+Hash map operations always take the same amount	of time, regardless of the size of the hash table
+
+Hash map operations:
+- O(1) for search, insertion, and Delete
