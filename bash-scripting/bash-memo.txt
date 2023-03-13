@@ -1,0 +1,86 @@
+# Bash
+  - Bourne again shell, in reference to the earlier Bourne shell
+  - combining commands into scripts saves time and reduces errors
+
+# Pipes and Redirection
+  - pipes send to output of one process to another
+    ## example	
+      - cat lorem.txt | less
+      - $ cat lorem.txt | wc
+         45    1853   12577
+       - lines, words, and characters.
+      - ls | wc -l
+  -Redirections send streams (standard input, output, and error) to or from files
+    ## example
+    - ls > list.txt
+	- ">" rewrite the file
+	- ">>" add to the file
+
+# Commands and Built-Ins
+  - echo
+  - printf
+  - command
+  - builtin 
+  - command -V
+  - enable
+  - enable -n 
+  - help
+  - whoami
+## builtin takes precedence over command version
+
+# (), {}, and []
+  - parentheses, braces, brackets
+
+# Bash expressions and substitutions
+  - ~ = tide expression
+	- represents the user's $HOME environment variable
+	- "~-" represents the directory user was previously recently in
+  - {...} = brace expressions
+	- echo {1..10} = display numbers from 1 to 10
+	- echo {01..100} = display numbers from 1 to 100 with 0s to fill in the blank i.e. 001,002, 011..etc.
+	- echo {'from'..'to'..'interval'}
+		# example
+		  - echo {1..30..3} = every 3 numbers from 1 to 30
+		  - touch file_{01..10}{a..d} = create files with names "file_'number 01~10''a~d'"
+		  - rm file_* = remove all the files that were created via the above command
+		  - head -n1 {dir1,dir2,dir3}/lorem.txt = print the first part of lore.txt file in the three different directories dir1, dir2, and dir3	
+  - ${...} = parameter expression
+	- newCommandName="value"
+	## example
+	  - sayhello="Hello!"
+		- echo $sayhello = displays "Hello!"
+	  - greeting="Hi There!"
+		- echo $greeting = displays "Hi There!"
+	  - echo ${"command":'position':'length'}
+		- echo ${greeting:6:3}
+	  - echo ${'command'/'replace this'/'by this'}
+		- echo ${greeting/hi/hey}
+		- '/' only replaces the first instance
+		- '//' replaces all of therm
+  - $(...) = command substitution 
+	- puts the output of one command inside another.
+  - $((...)) = Arithmetic expansion
+
+
+# One-liners
+  - many commands presented in one lone of text
+  - often piped commands or commands separated by semicolon
+  - can be very long (wrapped), but there is no newline until the end
+  - often stored in a note for frequent use
+
+# Bash script
+  -text file that contains a series of commands
+
+# excitable bash script
+  - includes shebang as the firstling (#!/user/bin/env bash)
+  - make it excitable with chmod +x myscript
+
+# running a bash script
+  - runs inside of a non interactive shell
+  - can change options for the sub shell with set or short in the script
+  - scripts help avoid typos and allow easier sharing of Bash code
+
+# echo
+  - \ = escaping
+  - "" = useful when mixing literal texts and variables
+  - echo -n = no new line afterword
